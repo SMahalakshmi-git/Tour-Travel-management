@@ -42,16 +42,10 @@
    ```bash
    git clone https://github.com/your-username/travel-world.git
    cd travel-world
-# For backend
-cd backend
-npm install  # or pip install -r requirements.txt
+   cd frontend
+   npm i
+   npm start dev
 
-# For frontend
-cd ../frontend
-npm install
-
-# Backend
-npm start  # or appropriate backend command
-
-# Frontend
-npm run dev  # or npm start
+   cd backend
+   npm i
+   node index.js
